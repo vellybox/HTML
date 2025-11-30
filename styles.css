@@ -1,0 +1,90 @@
+ *{
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: chocolate;
+ }                    
+
+
+
+ nav ul{
+    display: flex;
+    gap: 20px;
+ }
+
+ nav ul li{
+    list-style-type: none;
+ }
+ nav ul li a{
+    text-decoration: none;
+    color: black                                                                        ;
+ }
+ #acceuil{
+height:90vh;
+text-align: center;
+align-items: center;
+display: flex;
+justify-content: center;
+background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+        url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5") center/cover no-repeat;
+ }
+ #acceuil button{
+background-color: chocolate;
+color: white;
+padding: 12px 25px;
+border-radius: 5px;
+border: none;
+ }
+ h1{
+    text-align: center;
+ }
+
+.Paragraphe{
+    display: flex;
+    justify-content: center;
+}
+
+/* style du menu */
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+/* style du tabeau */
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    width: 350;
+    max-width: 400px;
+    margin: auto;
+}
+
+/* style tarifs */
+#tarifs {
+    display: flex;
+    justify-content: center;
+    padding: 50px 30px;
+    
+}
+table{
+margin:0 auto;
+width:100% ;
+}
+/* sryle du footer */
+#footer {
+    color: aliceblue;
+    background-color: black;
+    padding: 1%;
+   position: relative;
+    margin: auto;
+    text-align: center;
+}
